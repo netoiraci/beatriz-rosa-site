@@ -129,7 +129,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-br from-rose-200 to-pink-200 rounded-3xl blur-xl opacity-50"></div>
                 <div className="relative bg-white rounded-3xl p-1 shadow-2xl">
                   <img
-                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&h=600&fit=crop"
+                    src="/beatriz-rosa.jpg"
                     alt="Beatriz Rosa"
                     className="w-full h-auto rounded-3xl object-cover"
                   />

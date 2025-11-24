@@ -12,4 +12,6 @@
 - [x] Integração com WhatsApp (link direto)
 - [x] Design visual com paleta de cores rosa/bege
 - [x] Responsividade mobile, tablet e desktop
+- [x] Atualizar paleta de cores com a imagem fornecida
+- [x] Substituir foto de Beatriz pela imagem fornecida
 - [ ] Hospedagem pública e acessível
