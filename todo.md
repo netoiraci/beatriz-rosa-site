@@ -19,4 +19,5 @@
 - [x] Adicionar foto segurando livro na seção "Avaliação do Desenvolvimento"
 - [x] Reposicionar foto de vestido azul para logo abaixo do título "Sobre Mim"
 - [x] Ajustar tamanho da foto de vestido azul para melhor visualização em celular
+- [x] Reordenar serviços para colocar "Atendimento 0-3 Anos" como primeiro
 - [ ] Hospedagem pública e acessível

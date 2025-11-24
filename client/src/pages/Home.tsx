@@ -287,6 +287,16 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
+                title: "Atendimento 0-3 Anos: Foco na Relação Pais-Bebê",
+                description: "Diferente da terapia com crianças mais velhas, o atendimento de 0 a 3 anos tem um foco central na relação pais-bebê. Nesta fase crucial, a criança ainda não se expressa primariamente pela fala, mas sim pelo corpo, pelo choro, pelo brincar e pela forma como se relaciona com você.",
+                items: [
+                  "Relação pais-bebê",
+                  "Desenvolvimento inicial",
+                  "Construção de vínculos",
+                ],
+                icon: <Baby className="w-8 h-8" />,
+              },
+              {
                 title: "Atendimento Terapêutico Infantil (até 10 anos)",
                 description: "Acompanhamento individualizado para crianças, com foco em promover desenvolvimento emocional, social e comportamental. As intervenções são planejadas de forma lúdica, respeitando o tempo e as necessidades de cada criança.",
                 items: [
@@ -305,16 +315,6 @@ export default function Home() {
                   "Fortalecimento de vínculos familiares",
                 ],
                 icon: <Users className="w-8 h-8" />,
-              },
-              {
-                title: "Atendimento 0-3 Anos: Foco na Relação Pais-Bebê",
-                description: "Diferente da terapia com crianças mais velhas, o atendimento de 0 a 3 anos tem um foco central na relação pais-bebê. Nesta fase crucial, a criança ainda não se expressa primariamente pela fala, mas sim pelo corpo, pelo choro, pelo brincar e pela forma como se relaciona com você.",
-                items: [
-                  "Relação pais-bebê",
-                  "Desenvolvimento inicial",
-                  "Construção de vínculos",
-                ],
-                icon: <Baby className="w-8 h-8" />,
               },
             ].map((service, idx) => (
               <div
