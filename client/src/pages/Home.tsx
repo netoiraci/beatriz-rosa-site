@@ -200,9 +200,24 @@ export default function Home() {
       {/* Sobre Section */}
       <section id="sobre" className="py-16 sm:py-24 px-4" style={{ backgroundColor: "#ffffff" }}>
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-center" style={{ color: "#2d2520" }}>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-8 text-center" style={{ color: "#2d2520" }}>
             Sobre Mim
           </h2>
+
+          {/* Foto com vestido azul - logo abaixo do título */}
+          <div className="mb-12 flex justify-center">
+            <div className="relative w-full max-w-xs sm:max-w-sm">
+              <div className="absolute inset-0 rounded-3xl blur-xl opacity-30" style={{ backgroundColor: "#ba908a" }}></div>
+              <div className="relative bg-white rounded-3xl p-1 shadow-2xl">
+                <img
+                  src="/beatriz-azul.jpg"
+                  alt="Beatriz Rosa - Vestido Azul"
+                  className="w-full h-auto rounded-3xl object-cover"
+                />
+              </div>
+            </div>
+          </div>
+
           <p className="text-lg text-center mb-16" style={{ color: "#2d2520" }}>
             Beatriz Rosa construiu uma trajetória marcada pela união entre conhecimento técnico e sensibilidade humana
           </p>
@@ -238,20 +253,6 @@ export default function Home() {
               <p style={{ color: "#2d2520" }}>
                 Atua como Supervisora Clínica, orientando psicólogas de todo o Brasil, além de realizar atendimentos presenciais para crianças de até 10 anos e online para pais.
               </p>
-            </div>
-          </div>
-
-          {/* Foto com vestido azul */}
-          <div className="mb-16 flex justify-center">
-            <div className="relative w-full max-w-sm">
-              <div className="absolute inset-0 rounded-3xl blur-xl opacity-30" style={{ backgroundColor: "#ba908a" }}></div>
-              <div className="relative bg-white rounded-3xl p-1 shadow-2xl">
-                <img
-                  src="/beatriz-azul.jpg"
-                  alt="Beatriz Rosa - Vestido Azul"
-                  className="w-full h-auto rounded-3xl object-cover"
-                />
-              </div>
             </div>
           </div>
 
