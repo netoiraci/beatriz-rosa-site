@@ -20,9 +20,7 @@ export default function Home() {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg flex items-center justify-center" style={{ backgroundColor: "#a7706c" }}>
-                <Heart className="w-6 h-6 text-white" />
-              </div>
+              <img src="/logo-beatriz.png" alt="Logo Beatriz Rosa" className="w-10 h-10 object-contain" />
               <div>
                 <h1 className="text-xl font-bold" style={{ color: "#2d2520" }}>Beatriz Rosa</h1>
                 <p className="text-xs font-medium" style={{ color: "#a7706c" }}>PSICÓLOGA INFANTIL</p>
