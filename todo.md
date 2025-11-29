@@ -26,5 +26,5 @@
 - [x] Hospedagem pública e acessível
 - [x] Substituir ícone de coração pela logo personalizada na barra superior
 - [x] Adicionar logo no rodapé na frente do nome Beatriz Rosa
-- [ ] Preparar repositório GitHub
+- [x] Preparar repositório GitHub
 - [ ] Conectar e fazer deploy no Netlify
