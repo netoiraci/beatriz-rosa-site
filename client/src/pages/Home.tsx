@@ -421,7 +421,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Beatriz Rosa</h3>
+              <div className="flex items-center gap-2 mb-4">
+                <img src="/logo-beatriz.png" alt="Logo Beatriz Rosa" className="w-8 h-8 object-contain" />
+                <h3 className="text-xl font-bold">Beatriz Rosa</h3>
+              </div>
               <p style={{ color: "#ba908a" }}>Psicóloga Infantil</p>
             </div>
             <div>

@@ -25,3 +25,4 @@
 - [x] Configurar domínio personalizado (opcional)
 - [x] Hospedagem pública e acessível
 - [x] Substituir ícone de coração pela logo personalizada na barra superior
+- [x] Adicionar logo no rodapé na frente do nome Beatriz Rosa
